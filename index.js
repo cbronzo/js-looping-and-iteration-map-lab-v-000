@@ -1,3 +1,9 @@
 // Code your solution in this file.
 
-lowerCaseDrivers
+function lowerCaseDrivers(drivers) {
+  const lcDrivers = drivers.map(function(name) {
+    return name.toLowerCase();
+  });
+  return lcDrivers;
+}
+
